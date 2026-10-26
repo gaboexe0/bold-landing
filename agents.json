@@ -86,7 +86,7 @@
     "plans": [
       {
         "name": "Pilot",
-        "price": 1950,
+        "price": 2500,
         "cadence": "one-time",
         "minimumCommitment": "None",
         "isPopular": false,
@@ -95,6 +95,17 @@
           "Built in your workspace and your GitHub",
           "100% refund if it isn't live by day 10",
           "Fee credited to month 1 if you subscribe"
+        ]
+      },
+      {
+        "name": "Starter",
+        "priceMonthly": 990,
+        "minimumCommitment": "None",
+        "isPopular": false,
+        "features": [
+          "For pre-seed startups",
+          "Lighter monthly plan than Build",
+          "Pause or cancel anytime"
         ]
       },
       {
@@ -126,7 +137,7 @@
       },
       {
         "name": "Dedicated",
-        "priceMonthly": 7500,
+        "priceMonthly": 8500,
         "minimumCommitment": "None",
         "isPopular": false,
         "features": [

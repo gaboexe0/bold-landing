@@ -40,7 +40,7 @@
 - src/components/sections/solution.section.tsx: Solution/features section
 - src/components/sections/testimonial.section.tsx: Video testimonial
 - src/components/sections/how-it-works.section.tsx: 4-step process
-- src/components/sections/pricing.section.tsx: Pilot, Build, Growth, Dedicated cards, plus Run and add-ons
+- src/components/sections/pricing.section.tsx: Pilot, Starter, Build, Growth, Dedicated cards, plus Run and add-ons
 - src/components/sections/customers.section.tsx: Startups, fintech and ecommerce
 - src/components/sections/faq.section.tsx: Visible FAQ (same copy as META.faq)
 - src/components/sections/call-to-action.tsx: Final CTA
@@ -51,7 +51,7 @@
 - / (home): hero, problem, services, case study, startups/fintech/ecommerce, how it works, pricing, FAQ, booking CTA
 - /about: Company mission + 3 founders (Rodrigo Queche, Guillermo Julca, Joaquin Ladd)
 - /design: Dev stack (Block Kit, Slack API, TypeScript, Slack CLI, Sandbox Testing)
-- /pricing: Pilot $1,950 one-time, Build $1,999/mo, Growth $3,995/mo, Dedicated $7,500/mo, Run $399/mo. No setup fee. No minimum commitment. Pause or cancel anytime.
+- /pricing: Pilot $2,500 one-time, Starter $990/mo, Build $1,999/mo, Growth $3,995/mo, Dedicated $8,500/mo, Run $399/mo. No setup fee. No minimum commitment. Pause or cancel anytime.
 - /blog: Blog index listing articles
 - /blog/fine-tune-ai-brain-muse-glimmer-slack: Guide — Fine-tune Meta's Muse Glimmer as a company AI brain inside Slack (Article + HowTo + FAQPage JSON-LD). Machine-readable: /aeo/fine-tune-ai-brain-muse-glimmer-slack.md and .json
 - /blog/custom-ai-agent-slack-workspace: Guide — Benefits of a custom AI agent in Slack with tool calling and Semantic Kernel (Article + HowTo + FAQPage JSON-LD). Machine-readable: /aeo/custom-ai-agent-slack-workspace.md and .json
@@ -73,17 +73,19 @@ JSON-LD schemas used: ProfessionalService, FAQPage, Organization, WebApplication
 ## Subscription Model
 
 - **Capacity, not hours:** Plans are sized by how many requests are in progress at once.
-- **Pilot:** $1,950 one-time. One workflow or agent live in 10 business days, or a 100% refund. Fee credited to month 1 if you subscribe.
+- **Pilot:** $2,500 one-time. One workflow or agent live in 10 business days, or a 100% refund. Fee credited to month 1 if you subscribe.
+- **Starter:** $990/mo. The lighter monthly plan for pre-seed startups. Pause or cancel anytime.
 - **Run:** $399/mo keeps what we built maintained. It is a step-down instead of cancelling.
 - **Terms:** 5% off quarterly prepay, 15% off annual. Pause or cancel anytime. No minimum commitment. Code in the client's GitHub. IP assigned to the client on payment.
 - **Add-ons:** 24/7 support + SLA is +$1,500/mo on Growth or Dedicated. AI and paid API usage is included up to $25/mo, then billed at cost. Workspace Health Audit. Slack migrations (Discord, Teams, Google Chat) are fixed-scope projects after paid discovery.
 
 ## Pricing
 
-- Pilot: $1,950 one-time (one workflow or agent, 10 business days, 100% refund if not live, fee credited to month 1)
+- Pilot: $2,500 one-time (one workflow or agent, 10 business days, 100% refund if not live, fee credited to month 1)
+- Starter: $990/mo (lighter monthly plan for pre-seed startups; pause or cancel anytime)
 - Build: $1,999/mo (most popular; 1 active request; workflows, a custom Slack app, or an AI agent with 1 pipeline; up to 2 integrations; async support + 1 sync call/month)
 - Growth: $3,995/mo (2 active requests; full custom Slack apps; multi-pipeline AI agents; CRM + internal systems; weekly iterations; priority support)
-- Dedicated: $7,500/mo (dedicated engineer during business hours with US Eastern overlap; unlimited integrations; micro-app ecosystem). 24/7 support with SLA is an add-on, not included.
+- Dedicated: $8,500/mo (dedicated engineer during business hours with US Eastern overlap; unlimited integrations; micro-app ecosystem). 24/7 support with SLA is an add-on, not included.
 - Run: $399/mo (maintenance, monitoring and small tweaks of what we built)
 
 ## How to book

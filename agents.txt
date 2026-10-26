@@ -61,7 +61,7 @@ FRAMEWORK: Next.js 16 + TypeScript + Tailwind CSS v4
 
 /pricing
   title: Pricing
-  description: Pilot $1,950 one-time. Build $1,999/mo. Growth $3,995/mo. Dedicated $7,500/mo. Run $399/mo. No setup fee. No minimum commitment. Pause or cancel anytime.
+  description: Pilot $2,500 one-time. Starter $990/mo. Build $1,999/mo. Growth $3,995/mo. Dedicated $8,500/mo. Run $399/mo. No setup fee. No minimum commitment. Pause or cancel anytime.
 
 /privacy
   title: Privacy Policy
@@ -72,8 +72,11 @@ FRAMEWORK: Next.js 16 + TypeScript + Tailwind CSS v4
   description: Legal document. Service terms, subscription terms, intellectual property, liability, termination, contact.
 
 # PRICING PLANS
-PLAN: Pilot ($1,950 one-time, no minimum)
+PLAN: Pilot ($2,500 one-time, no minimum)
   features: One workflow or agent live in 10 business days, built in the client's workspace and GitHub, 100% refund if it is not live by day 10, fee credited to month 1 if they subscribe
+
+PLAN: Starter ($990/mo, no setup fee, no minimum)
+  features: Lighter monthly plan for pre-seed startups, pause or cancel anytime
 
 PLAN: Build ($1,999/mo, no setup fee, no minimum) [MOST POPULAR]
   features: 1 active request at a time, workflows or a custom Slack app or an AI agent (1 pipeline), up to 2 integrations, async support + 1 sync call/month, pause or cancel anytime
@@ -81,7 +84,7 @@ PLAN: Build ($1,999/mo, no setup fee, no minimum) [MOST POPULAR]
 PLAN: Growth ($3,995/mo, no setup fee, no minimum)
   features: 2 active requests, full custom Slack apps, multi-pipeline AI agents, CRM + internal systems, weekly iterations, priority support
 
-PLAN: Dedicated ($7,500/mo, no setup fee, no minimum)
+PLAN: Dedicated ($8,500/mo, no setup fee, no minimum)
   features: Dedicated engineer during business hours with US Eastern overlap, unlimited integrations, micro-app ecosystem. 24/7 support with SLA is a +$1,500/mo add-on, not included.
 
 PLAN: Run ($399/mo)

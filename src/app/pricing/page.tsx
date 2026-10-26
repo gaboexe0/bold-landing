@@ -34,7 +34,7 @@ const pricingJsonLd = {
     "@type": "AggregateOffer",
     priceCurrency: "USD",
     lowPrice: "399",
-    highPrice: "7500",
+    highPrice: "8500",
     offerCount: String(PRICING_OFFERS.length),
     offers: PRICING_OFFERS,
   },
@@ -94,10 +94,10 @@ export default function PricingPage() {
               <span className="text-[#FFD200]">Pricing</span>
             </h1>
             <p className="text-muted leading-relaxed">
-              Pay for capacity, not hours. Start with a $1,950 10-day pilot,
-              money back if it isn&apos;t live. Then Build at $1,999/mo, Growth
-              at $3,995/mo, a Dedicated engineer at $7,500/mo, or Run at
-              $399/mo. Cancel or pause anytime.
+              Pay for capacity, not hours. Start with a $2,500 10-day pilot,
+              money back if it isn&apos;t live. Then Starter at $990/mo for
+              pre-seed, Build at $1,999/mo, Growth at $3,995/mo, a Dedicated
+              engineer at $8,500/mo, or Run at $399/mo. Cancel or pause anytime.
             </p>
           </div>
           <PricingPlans />
