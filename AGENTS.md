@@ -23,7 +23,7 @@
 | Solution | `SolutionSection` | 4 feature cards (Dedicated Team, Slack-First, Flexible Scope, Fully Managed) + "What you can build" chips |
 | Testimonial | `TestimonialSection` | Video demo of a real onboarding agent built for an ecommerce platform |
 | How It Works | `HowItWorksSection` | 4 steps: Subscribe → Send tasks in Slack → We build and iterate → You review and deploy |
-| Pricing | `PricingSection` | 4 plan cards with features + chips for target audience |
+| Pricing | `PricingSection` | Plan cards (Pilot, Starter, Build, Growth, Dedicated) with features, plus Run and add-ons |
 | CTA | `CallToActionSection` | Embedded Tally.so form |
 | Footer | `Footer` | Company links, legal links, copyright |
 
@@ -52,10 +52,11 @@ Four subscription plans:
 
 | Plan | Price | Commitment |
 |------|-------|------------|
-| Pilot | $1,950 one-time | None. Live in 10 business days or 100% refund. Fee credited to month 1 if they subscribe. |
+| Pilot | $2,500 one-time | None. Live in 10 business days or 100% refund. Fee credited to month 1 if they subscribe. |
+| Starter | $990/mo | None. Lighter monthly plan for pre-seed startups. |
 | Build (Most Popular) | $1,999/mo | None. 1 active request. |
 | Growth | $3,995/mo | None. 2 active requests. |
-| Dedicated | $7,500/mo | None. Dedicated engineer, business hours, US Eastern overlap. 24/7 + SLA is +$1,500/mo. |
+| Dedicated | $8,500/mo | None. Dedicated engineer, business hours, US Eastern overlap. 24/7 + SLA is +$1,500/mo. |
 | Run | $399/mo | None. Maintenance of what we built. |
 
 ### Legal

@@ -90,7 +90,7 @@ const faqJsonLd = {
       name: "What if I only need one Slack workflow built?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Start with the $1,950 10-day pilot, or subscribe and pause when the work is done. There is no minimum commitment. Run at $399/mo keeps what we built maintained if you are not ready to cancel.",
+        text: "Start with the $2,500 10-day pilot, or subscribe and pause when the work is done. There is no minimum commitment. Run at $399/mo keeps what we built maintained if you are not ready to cancel.",
       },
     },
     {
@@ -294,10 +294,17 @@ export default function SlackAiAgentsSubscriptionPage() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-5 rounded-[32px] border border-black/5 flex flex-col gap-2">
-                <h3 className="font-bold text-lg">Pilot · $1,950 one-time</h3>
+                <h3 className="font-bold text-lg">Pilot · $2,500 one-time</h3>
                 <p className="text-muted text-sm">
                   One workflow or agent live in 10 business days, or a 100%
                   refund. The fee is credited to month 1 if you subscribe.
+                </p>
+              </div>
+              <div className="p-5 rounded-[32px] border border-black/5 flex flex-col gap-2">
+                <h3 className="font-bold text-lg">Starter · $990/mo</h3>
+                <p className="text-muted text-sm">
+                  The lighter monthly plan for pre-seed startups. An entry
+                  retainer before Build. Pause or cancel anytime.
                 </p>
               </div>
               <div className="p-5 rounded-[32px] border border-yellow-300 bg-yellow-50 flex flex-col gap-2">
@@ -317,14 +324,14 @@ export default function SlackAiAgentsSubscriptionPage() {
                 </p>
               </div>
               <div className="p-5 rounded-[32px] border border-black/5 flex flex-col gap-2">
-                <h3 className="font-bold text-lg">Dedicated · $7,500/mo</h3>
+                <h3 className="font-bold text-lg">Dedicated · $8,500/mo</h3>
                 <p className="text-muted text-sm">
                   Dedicated engineer during business hours with US Eastern
                   overlap, unlimited integrations, and a micro-app ecosystem.
                   24/7 support with SLA is a +$1,500/mo add-on.
                 </p>
               </div>
-              <div className="p-5 rounded-[32px] border border-black/5 flex flex-col gap-2 md:col-span-2">
+              <div className="p-5 rounded-[32px] border border-black/5 flex flex-col gap-2">
                 <h3 className="font-bold text-lg">Run · $399/mo</h3>
                 <p className="text-muted text-sm">
                   Maintenance, monitoring and small tweaks of what we built. A
@@ -363,7 +370,7 @@ export default function SlackAiAgentsSubscriptionPage() {
                   What if I only need one Slack workflow built?
                 </h3>
                 <p className="text-muted text-sm mt-1">
-                  Start with the $1,950 pilot, or subscribe and pause when you
+                  Start with the $2,500 pilot, or subscribe and pause when you
                   are done. There is no minimum commitment. Run at $399/mo keeps
                   what we built maintained.
                 </p>

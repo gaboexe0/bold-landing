@@ -72,8 +72,8 @@ export type PricingPlan = {
 export const PRICING_PLANS: PricingPlan[] = [
   {
     name: "Pilot",
-    price: "1950",
-    priceLabel: "$1,950",
+    price: "2500",
+    priceLabel: "$2,500",
     cadenceLabel: "one-time",
     description:
       "One workflow or agent live in your Slack in 10 business days, or a 100% refund. The fee is credited to month 1 if you subscribe.",
@@ -85,6 +85,21 @@ export const PRICING_PLANS: PricingPlan[] = [
     ],
     isPopular: false,
     ctaLabel: "Start a pilot",
+  },
+  {
+    name: "Starter",
+    price: "990",
+    priceLabel: "$990",
+    cadenceLabel: "/mo",
+    description:
+      "The lighter monthly plan for pre-seed startups. An entry retainer before Build. Pause or cancel anytime.",
+    features: [
+      "For pre-seed startups",
+      "Lighter monthly plan than Build",
+      "Pause or cancel anytime",
+    ],
+    isPopular: false,
+    ctaLabel: "Talk to us",
   },
   {
     name: "Build",
@@ -123,8 +138,8 @@ export const PRICING_PLANS: PricingPlan[] = [
   },
   {
     name: "Dedicated",
-    price: "7500",
-    priceLabel: "$7,500",
+    price: "8500",
+    priceLabel: "$8,500",
     cadenceLabel: "/mo",
     description:
       "A dedicated engineer during business hours with US Eastern overlap, unlimited integrations, and a micro-app ecosystem. 24/7 support with SLA is a separate add-on.",
@@ -221,7 +236,7 @@ export const META = {
     {
       question: "What happens if the pilot isn't live by day 10?",
       answer:
-        "You get your $1,950 back. Live means the agreed workflow or agent runs in your Slack workspace, as defined in writing at kickoff.",
+        "You get your $2,500 back. Live means the agreed workflow or agent runs in your Slack workspace, as defined in writing at kickoff.",
     },
     {
       question: "Who owns the code?",
@@ -270,7 +285,7 @@ export const META = {
     pricing: {
       title: "Pricing",
       description:
-        "Start with a $1,950 10-day pilot, money back if it isn't live. Then Build $1,999/mo, Growth $3,995/mo or a Dedicated engineer at $7,500/mo. Cancel anytime.",
+        "Start with a $2,500 10-day pilot, money back if it isn't live. Then Starter $990/mo, Build $1,999/mo, Growth $3,995/mo or a Dedicated engineer at $8,500/mo. Cancel anytime.",
       canonical: "/pricing",
     },
   },

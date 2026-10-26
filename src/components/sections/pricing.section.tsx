@@ -76,9 +76,19 @@ function PlanCard({ plan }: { plan: PricingPlan }) {
 export function PricingPlans() {
   return (
     <div className="flex flex-col gap-6 w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 w-full pt-4">
-        {PRICING_PLANS.map((plan) => (
-          <PlanCard key={plan.name} plan={plan} />
+      {/* Five plans: three across on wide screens, Growth and Dedicated centered on the next row. */}
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-6 w-full pt-4">
+        {PRICING_PLANS.map((plan, index) => (
+          <div
+            key={plan.name}
+            className={cn(
+              "h-full xl:col-span-2",
+              index === 3 && "xl:col-start-2",
+              index === PRICING_PLANS.length - 1 && "md:col-span-2",
+            )}
+          >
+            <PlanCard plan={plan} />
+          </div>
         ))}
       </div>
 

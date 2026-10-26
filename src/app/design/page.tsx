@@ -109,14 +109,14 @@ const softwareAppJsonLd = {
   operatingSystem: "Web",
   offers: {
     "@type": "Offer",
-    price: "1499",
+    price: "990",
     priceCurrency: "USD",
     priceValidUntil: new Date(
       new Date().setFullYear(new Date().getFullYear() + 1),
     )
       .toISOString()
       .split("T")[0],
-    description: "Starting at $1,499/month subscription",
+    description: "Starting at $990/month subscription",
   },
 };
 
